@@ -1,0 +1,120 @@
+
+@media(max-width:900px){
+    /* --- */
+    h1{
+        font-size:30px;
+    }
+    /* - トップ - */
+    .heading-1,.heading-2{
+        font-size:40px ;
+    }
+    .nav a{
+        line-height:40px;
+        font-size:20px;
+    }
+    /* - スキル - */
+    .img03 li{
+        font-size:14px;
+        list-style:none;
+        line-height:25px;
+    }
+    .LR03,.RR03{
+        margin-left:15px;
+    }
+    /* - プロダクト - */
+    .img04 img{
+        width:50%;
+    }
+    .products p{
+        font-size:20px;
+    }
+    .s-txt04{
+        font-size:14px;
+    }
+    /* - 思い - */
+    .txt05{
+        padding:5px;
+        text-align:center;
+    }
+    .txt05 h1{
+        margin-bottom:20px;
+    }
+    /* - コンタクト - */
+   
+    .txt06{
+        width:60%;
+    }
+    .hide06{
+        font-size:18px;
+    }
+    .icon06 i{
+        font-size:100px;
+    }
+}
+/*  
+@media(min-width:601px){
+    
+}
+*/
+@media(max-width:600px){
+  /* --- */
+  body{
+      font-size:14px;
+  }
+  .container{
+    width:100%;
+    max-width:none;
+    margin-bottom:20px;
+}
+h1,#name{
+    font-size:20px;
+}
+.stecker{
+    display:block;
+}
+/* - Top - */
+.top-view{
+    height:100%;
+    border:none;
+}
+.content01-1,.content01-2{
+    display:none;
+}
+#hide-list{
+    display:block;
+}
+/* - アバウト - */
+.second-contents{
+    height:85vh;
+    display:block;
+}
+.content02-1{
+    margin:0 auto;
+    width:70%;
+}
+.content02-2{
+    margin:0 auto;
+    width:90%;
+}
+#img-smm{
+    display:block;
+}
+/* - キャリア - */
+
+/* - ストレングス - */
+.title04{
+    font-size:18px;
+}
+/* - コンタクト - */
+.bottom-view{
+    height:30%;
+}
+.content06{
+    display:block;
+}
+/* - フッター - */
+.footer{
+    background-color: #C7A23A;
+}
+
+}
